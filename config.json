@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "home": "https://github.com/amio/now-go",
+    "myip": "PROXY >> https://httpbin.org/ip",
+    "now-go": "Now go, let the legend come back to life!",
+    "/": "Yet another tinyurl service. `now-go` with <3.",
+    "?": "What are you looking for"
+  },
+  "port": 3000
+}

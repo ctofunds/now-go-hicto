@@ -1,0 +1,18 @@
+{
+  "name": "now-go-instance",
+  "repository": "amio/now-go-instance",
+  "description": "Yet another now-go server.",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "now-go -c config.json"
+  },
+  "license": "ISC",
+  "keywords": [
+    "micro-service",
+    "tinyurl",
+    "now-go"
+  ],
+  "dependencies": {
+    "now-go": "^1.1.0"
+  }
+}
