@@ -4,7 +4,9 @@
   "description": "Yet another now-go server.",
   "version": "1.0.0",
   "scripts": {
-    "start": "now-go -c config.json"
+    "start:local": "now-go -c config.json",
+    "start:remote": "now-go -c https://amio.github.io/now-go-instance/config.json",
+    "start": "npm run start:local"
   },
   "license": "ISC",
   "keywords": [
