@@ -32,7 +32,7 @@ const configLocation = './config.json' // local file or remote url
 go(configLocation)
 ```
 
-Then `pm2 index.js`
+Then `pm2 start index.js --name tinyurl`
 
 ## now-go
 
