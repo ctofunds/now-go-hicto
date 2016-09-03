@@ -23,9 +23,9 @@ now alias set https://long-long-name.now.sh short-name
 
 #### Deploy to any server
 
-Create a `index.js`:  
-
 ```javascript
+/* index.js */
+
 const go = require('now-go')
 const configLocation = './config.json' // local file or remote url
 
